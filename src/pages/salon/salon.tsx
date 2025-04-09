@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import portada from "../../assets/img/salon/ORQ2-17.jpg";
+import logo from "../../assets/img/logo.jpg";
 
 const Salon = () => {
   return (
@@ -27,6 +28,33 @@ const Salon = () => {
             <i className="bi bi-instagram"></i>
           </button>
         </div>
+      </div>
+
+      <div className={styles.separador}></div>
+
+      <div className={styles.separador2}>
+        <div className={styles.contenido}>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+            dolor, magnam delectus voluptatem neque saepe a doloremque facilis
+            consequuntur vel.
+          </p>
+        </div>
+        <div className={styles.circulo}>
+          <img src={logo} alt="Logo" />
+        </div>
+      </div>
+
+      <div className={styles.contenidoBlanco}>
+        <img src={portada} alt="" />
+      </div>
+
+      <div className={styles.salonA}>
+        <h1>Salon A</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor,
+          itaque.
+        </p>
       </div>
     </div>
   );
