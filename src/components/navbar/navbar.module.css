@@ -48,16 +48,20 @@
   list-style: none;
   display: flex;
   gap: 1rem;
+  position: relative;
+  z-index: 1;
 }
 
-.navbar__links a {
+.navbar__links a,
+button {
   font-weight: 500;
   color: #ffffff;
   transition: color 0.3s;
 }
 
 .navbar__links a:hover,
-.navbar__links .active {
+.navbar__links .active,
+button:hover {
   color: #ffc14b;
 }
 
@@ -68,12 +72,22 @@
     font-size: 15px;
   }
 
+  .navbar li {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+
+  .navbar ul {
+    margin-top: 15px;
+  }
+
   .navbar__links {
     display: none;
     flex-direction: column;
     width: 100%;
-    gap: 1rem;
-    margin-top: 1rem;
+    height: auto;
+    gap: 1.5rem;
   }
 
   .navbar__links.show {

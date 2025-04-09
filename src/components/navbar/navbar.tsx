@@ -13,6 +13,12 @@ const Navbar = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+
+  const toggleDropdown = () => {
+    setIsDropdownOpen(!isDropdownOpen);
+  };
+
   return (
     <nav className={`navbar ${styles.navbar}`}>
       <div className="container-fluid">
@@ -63,17 +69,33 @@ const Navbar = () => {
               Organizador de Eventos
             </NavLink>
           </li>
-          <li className="nav-item">
-            <NavLink
-              to="/galeria"
-              className={({ isActive }) =>
-                isActive
-                  ? `${styles.link} ${styles.active} nav-link`
-                  : `${styles.link} nav-link`
-              }
+          <li className="nav-item dropdown">
+            <button
+              onClick={toggleDropdown}
+              className={styles.link}
+              style={{ background: "none", border: "none", cursor: "pointer" }}
             >
-              Redes Sociales
-            </NavLink>
+              Redes Sociales ▾
+            </button>
+            {isDropdownOpen && (
+              <ul className={styles.dropdownMenu}>
+                <li>
+                  <a className={styles.dropdownItem} href="#">
+                    Instagram
+                  </a>
+                </li>
+                <li>
+                  <a className={styles.dropdownItem} href="#">
+                    Facebook
+                  </a>
+                </li>
+                <li>
+                  <a className={styles.dropdownItem} href="#">
+                    TikTok
+                  </a>
+                </li>
+              </ul>
+            )}
           </li>
           <li className="nav-item">
             <NavLink
