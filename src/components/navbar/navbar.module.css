@@ -9,10 +9,12 @@
 
 .navbar ul {
   margin: 0;
+  padding: 0;
 }
 
 .navbar li {
-  margin-left: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .navbar__img {
