@@ -1,4 +1,4 @@
-import logo from "../../assets/img/logo.jpg";
+import logo from "../../assets/img/logo colmar curvas.png";
 import { Link, NavLink } from "react-router-dom";
 import styles from "./navbar.module.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -69,33 +69,42 @@ const Navbar = () => {
               Organizador de Eventos
             </NavLink>
           </li>
-          <li className="nav-item dropdown">
-            <button
-              onClick={toggleDropdown}
-              className={styles.link}
-              style={{ background: "none", border: "none", cursor: "pointer" }}
+          <li className={`nav-item dropdown  ${styles.dropdownMenu}`}>
+            <a
+              className="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
             >
-              Redes Sociales ▾
-            </button>
-            {isDropdownOpen && (
-              <ul className={styles.dropdownMenu}>
-                <li>
-                  <a className={styles.dropdownItem} href="#">
-                    Instagram
-                  </a>
-                </li>
-                <li>
-                  <a className={styles.dropdownItem} href="#">
-                    Facebook
-                  </a>
-                </li>
-                <li>
-                  <a className={styles.dropdownItem} href="#">
-                    TikTok
-                  </a>
-                </li>
-              </ul>
-            )}
+              Redes Sociales
+            </a>
+            <ul className={`dropdown-menu ${styles.dropdown}`}>
+              <li>
+                <a
+                  className={`dropdown-item ${styles.dropdown__item}`}
+                  href="#"
+                >
+                  Facebook
+                </a>
+              </li>
+              <li>
+                <a
+                  className={`dropdown-item ${styles.dropdown__item}`}
+                  href="#"
+                >
+                  Instagram
+                </a>
+              </li>
+              <li>
+                <a
+                  className={`dropdown-item ${styles.dropdown__item}`}
+                  href="#"
+                >
+                  Tiktok
+                </a>
+              </li>
+            </ul>
           </li>
           <li className="nav-item">
             <NavLink
