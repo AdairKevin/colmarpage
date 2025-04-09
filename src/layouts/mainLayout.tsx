@@ -6,7 +6,7 @@ const MainLayout = () => {
   return (
     <>
       <Navbar />
-      <main style={{ padding: "2rem" }}>
+      <main style={{ padding: "0" }}>
         <Outlet />
       </main>
       <Footer />

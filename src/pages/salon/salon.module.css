@@ -1,0 +1,84 @@
+.hero {
+  width: 100%;
+}
+
+.port img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  position: relative;
+  overflow: hidden;
+  object-position: center;
+  -webkit-mask-image: linear-gradient(to bottom, black 40%, transparent 90%);
+  mask-image: linear-gradient(to bottom, black 40%, transparent 90%);
+}
+
+.contenidoPortada {
+  text-align: center;
+  color: #000000;
+}
+
+.contenidoPortada p {
+  margin: 0 auto;
+  width: 50%;
+  font-size: 60px;
+}
+
+.contenidoPortada small {
+  font-size: 20px;
+  color: #000000;
+}
+
+.botones {
+  padding: 20px;
+  gap: 10px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.contacto {
+  padding: 10px 50px;
+}
+
+button i {
+  font-size: 30px;
+}
+
+.redes {
+  padding: 1px 6px;
+}
+
+/* Estilos para móviles */
+@media (max-width: 768px) {
+  .port img {
+    height: 350px;
+    object-fit: cover;
+  }
+
+  .contenidoPortada p {
+    width: 100%;
+    font-size: 30px;
+  }
+
+  .contenidoPortada small {
+    font-size: 15px;
+    color: #000000;
+  }
+
+  .botones button {
+    font-size: 12px;
+  }
+
+  .contacto {
+    padding: 10px 20px;
+  }
+
+  button i {
+    font-size: 25px;
+  }
+
+  .redes {
+    padding: 1px 6px;
+  }
+}

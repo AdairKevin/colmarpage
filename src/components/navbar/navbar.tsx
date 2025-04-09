@@ -59,7 +59,7 @@ const Navbar = () => {
           </li>
           <li className="nav-item">
             <NavLink
-              to="/paquetes"
+              to="/Carpas"
               className={({ isActive }) =>
                 isActive
                   ? `${styles.link} ${styles.active} nav-link`

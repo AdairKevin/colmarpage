@@ -1,20 +1,33 @@
 import styles from "./salon.module.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import "bootstrap-icons/font/bootstrap-icons.css";
+import portada from "../../assets/img/salon/ORQ2-17.jpg";
 
 const Salon = () => {
   return (
-    <div className={styles.salon}>
-      <h1>Salón de Eventos</h1>
-      <p>
-        Bienvenido al salón de eventos, donde hacemos realidad tus sueños. Aquí
-        podrás encontrar todo lo que necesitas para tu evento perfecto.
-      </p>
-      <img
-        src="/images/salon.jpg"
-        alt="Salón de Eventos"
-        className={styles.image}
-      />
+    <div className={styles.hero}>
+      <div className={styles.port}>
+        <img src={portada} alt="" />
+      </div>
+      <div className={styles.contenidoPortada}>
+        <small>Salón de Eventos "Las Orquideas"</small>
+        <p>El escenario perfecto para celebrar momentos inolvidables.</p>
+        <div className={styles.botones}>
+          <button
+            type="button"
+            className={`btn btn-success ${styles.contacto}`}
+          >
+            Contáctanos
+          </button>
+          <button type="button" className={`btn btn-primary ${styles.redes}`}>
+            <i className="bi bi-facebook"></i>
+          </button>
+          <button type="button" className={`btn btn-primary ${styles.redes}`}>
+            <i className="bi bi-instagram"></i>
+          </button>
+        </div>
+      </div>
     </div>
   );
 };
