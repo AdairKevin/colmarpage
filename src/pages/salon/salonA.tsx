@@ -1,7 +1,7 @@
 import styles from "./salonA.module.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
-import galeria1 from "../../assets/img/salon/ORQ2-15.jpg";
+import galeria1 from "../../assets/img/salon/ORQ2-18.jpg";
 import galeria2 from "../../assets/img/salon/ORQ2-16.jpg";
 import galeria3 from "../../assets/img/salon/ORQ2-17.jpg";
 
