@@ -27,6 +27,13 @@ p {
   margin-bottom: 50px;
 }
 
+.carousel {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
 /* Estilos para móviles */
 @media (max-width: 768px) {
   .salonA h1,
@@ -49,5 +56,9 @@ p {
   .galeria {
     width: 100%;
     margin-bottom: 20px;
+  }
+
+  .carousel {
+    width: 100%;
   }
 }
