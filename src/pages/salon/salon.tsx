@@ -5,6 +5,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import portada from "../../assets/img/salon/ORQ2-17.jpg";
 import logo from "../../assets/img/logo.jpg";
 import SalonA from "./salonA";
+import PricingSection from "../../components/pricingPackages/pricing";
 
 const Salon = () => {
   return (
@@ -52,6 +53,10 @@ const Salon = () => {
       </div>
 
       <SalonA />
+
+      <div>
+        <PricingSection />
+      </div>
     </div>
   );
 };

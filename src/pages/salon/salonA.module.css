@@ -1,11 +1,13 @@
 .salonA {
   width: 100%;
   text-align: center;
+  background-color: #f2f2f2;
 }
 
 .salonA h1,
 p {
   padding: 10px 100px;
+  background-color: #f2f2f2;
 }
 
 .salonA p {

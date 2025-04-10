@@ -8,6 +8,11 @@ ul {
   overflow: hidden;
   object-fit: cover;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.247);
+  background-color: #f2f2f2;
+}
+
+.carouselContainer {
+  background-color: #f2f2f2;
 }
 
 @media (max-width: 768px) {
