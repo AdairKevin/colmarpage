@@ -6,6 +6,8 @@ import portada from "../../assets/img/salon/ORQ2-17.jpg";
 import logo from "../../assets/img/logo.jpg";
 import SalonA from "./salonA";
 import PricingSection from "../../components/pricingPackages/pricing";
+import separador from "../../assets/img/salon/ORQ2-24.jpg";
+import SalonB from "./salonB";
 
 const Salon = () => {
   return (
@@ -53,6 +55,12 @@ const Salon = () => {
       </div>
 
       <SalonA />
+
+      <div className={styles.contenidoBlanco}>
+        <img src={separador} alt="" />
+      </div>
+
+      <SalonB />
 
       <div>
         <PricingSection />
