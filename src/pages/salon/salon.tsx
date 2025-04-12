@@ -23,7 +23,7 @@ const Salon = () => {
             type="button"
             className={`btn btn-success ${styles.contacto}`}
           >
-            Contáctanos
+            Contácto
           </button>
           <button type="button" className={`btn btn-primary ${styles.redes}`}>
             <i className="bi bi-facebook"></i>
