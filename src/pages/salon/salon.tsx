@@ -8,6 +8,8 @@ import SalonA from "./salonA";
 import PricingSection from "../../components/pricingPackages/pricing";
 import separador from "../../assets/img/salon/ORQ2-28.webp";
 import SalonB from "./salonB";
+import MonthlyCountdown from "../../components/promocion/promocion";
+import Faq from "../../components/faq/faq";
 
 const Salon = () => {
   return (
@@ -65,6 +67,12 @@ const Salon = () => {
       <div>
         <PricingSection />
       </div>
+
+      <div>
+        <MonthlyCountdown />
+      </div>
+
+      <Faq />
     </div>
   );
 };

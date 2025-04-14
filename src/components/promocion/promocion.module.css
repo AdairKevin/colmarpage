@@ -1,7 +1,31 @@
-.pricingSection {
-  padding: 10px 20px 30px 20px;
-  background-color: #f2f2f2;
+.container {
+  display: grid;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
+}
+
+.titulo {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px 0 0 0;
+  padding: 20px 0 0 0;
+  color: #ff1d1d;
+}
+
+.subtitulo {
+  font-size: 20px;
+  color: #000000;
+}
+
+.contador {
+  font-size: 25px;
+  font-weight: bold;
+  color: #000000;
+  font-family: "Times New Roman", Times, serifs;
+  span {
+    font-family: "Times New Roman", Times, serifs;
+  }
 }
 
 .title {
@@ -16,6 +40,7 @@
   justify-content: center;
   gap: 30px;
   flex-wrap: wrap;
+  margin-bottom: 30px;
 }
 
 .card {
@@ -82,7 +107,7 @@
 .button {
   margin-top: 30px;
   width: 100%;
-  background-color: #0f172a;
+  background-color: #07c81b;
   color: #ffffff;
   padding: 12px 0;
   border: none;
@@ -94,5 +119,37 @@
 }
 
 .button:hover {
-  background-color: #1e293b;
+  background-color: #057710;
+}
+
+@media (max-width: 768px) {
+  .cardContainer {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+
+  .container {
+    padding: 0 20px;
+  }
+
+  .titulo {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0 0 0;
+    padding: 20px 0 0 0;
+    color: #ff1d1d;
+  }
+
+  .contador {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    font-family: "Times New Roman", Times, serifs;
+    span {
+      font-family: "Times New Roman", Times, serifs;
+    }
+  }
 }
