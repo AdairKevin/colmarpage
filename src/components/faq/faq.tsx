@@ -11,6 +11,7 @@ import styles from "./faq.module.css";
 
 import { Accordion, AccordionTab } from "primereact/accordion";
 import { Button } from "primereact/button";
+import { useState } from "react";
 const faqData = {
   General: [
     {
