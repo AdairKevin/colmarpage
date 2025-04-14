@@ -2,11 +2,11 @@ import styles from "./salon.module.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "bootstrap-icons/font/bootstrap-icons.css";
-import portada from "../../assets/img/salon/ORQ2-17.jpg";
+import portada from "../../assets/img/salon/ORQ2-17.webp";
 import logo from "../../assets/img/logo.jpg";
 import SalonA from "./salonA";
 import PricingSection from "../../components/pricingPackages/pricing";
-import separador from "../../assets/img/salon/ORQ2-24.jpg";
+import separador from "../../assets/img/salon/ORQ2-28.webp";
 import SalonB from "./salonB";
 
 const Salon = () => {
