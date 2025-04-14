@@ -9,7 +9,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 //Estilos css
 import styles from "./faq.module.css";
 
-import React, { useState } from "react";
 import { Accordion, AccordionTab } from "primereact/accordion";
 import { Button } from "primereact/button";
 const faqData = {
