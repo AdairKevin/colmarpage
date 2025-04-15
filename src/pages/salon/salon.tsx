@@ -10,6 +10,7 @@ import separador from "../../assets/img/salon/ORQ2-28.webp";
 import SalonB from "./salonB";
 import MonthlyCountdown from "../../components/promocion/promocion";
 import Faq from "../../components/faq/faq";
+import separador2 from "../../assets/img/salon/ORQ2-35.webp";
 
 const Salon = () => {
   return (
@@ -30,8 +31,11 @@ const Salon = () => {
           <button type="button" className={`btn btn-primary ${styles.redes}`}>
             <i className="bi bi-facebook"></i>
           </button>
-          <button type="button" className={`btn btn-primary ${styles.redes}`}>
+          <button type="button" className={`btn btn-secondary ${styles.redes}`}>
             <i className="bi bi-instagram"></i>
+          </button>
+          <button type="button" className={`btn btn-primary ${styles.redes}`}>
+            <i className="bi bi-geo-alt-fill"></i>
           </button>
         </div>
       </div>
@@ -70,6 +74,10 @@ const Salon = () => {
 
       <div>
         <MonthlyCountdown />
+      </div>
+
+      <div className={styles.contenidoBlanco}>
+        <img src={separador2} alt="" />
       </div>
 
       <Faq />

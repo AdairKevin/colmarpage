@@ -16,10 +16,10 @@ const Footer = () => {
         {/* Enlaces rápidos */}
         <div className="d-flex justify-content-center gap-4 flex-wrap mb-3">
           <a href="#" className=" text-primary text-decoration-none small">
-            Facebook
+            Inicio
           </a>
           <a href="#" className=" text-primary text-decoration-none small">
-            Instagram
+            Ubicación
           </a>
           <a href="#" className=" text-primary text-decoration-none small">
             Contacto
@@ -29,13 +29,13 @@ const Footer = () => {
         {/* Redes sociales */}
         <div className="d-flex justify-content-center gap-3 mb-3">
           <a href="#" className="text-white">
-            <i className="fab fa-facebook-f"></i>
+            <i className="pi pi-facebook"></i>
           </a>
           <a href="#" className="text-white">
-            <i className="fab fa-instagram"></i>
+            <i className="pi pi-instagram"></i>
           </a>
           <a href="#" className="text-white">
-            <i className="fab fa-x-twitter"></i>
+            <i className="pi pi-twitter"></i>
           </a>
         </div>
 
