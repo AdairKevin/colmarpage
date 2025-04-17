@@ -25,16 +25,44 @@ const Salon = () => {
           <button
             type="button"
             className={`btn btn-success ${styles.contacto}`}
+            onClick={() => (window.location.href = "https://wa.link/8m528q")}
           >
             Contáctanos
           </button>
-          <button type="button" className={`btn btn-primary ${styles.redes}`}>
+
+          <button
+            type="button"
+            className={`btn btn-primary ${styles.redes}`}
+            onClick={() =>
+              window.open(
+                "https://www.facebook.com/profile.php?id=61560141006918",
+                "_blank"
+              )
+            }
+          >
             <i className="bi bi-facebook"></i>
           </button>
-          <button type="button" className={`btn btn-secondary ${styles.redes}`}>
+
+          <button
+            type="button"
+            className={`btn btn-secondary ${styles.redes}`}
+            onClick={() =>
+              window.open(
+                "https://www.instagram.com/salonlasorquideas__",
+                "_blank"
+              )
+            }
+          >
             <i className="bi bi-instagram"></i>
           </button>
-          <button type="button" className={`btn btn-primary ${styles.redes}`}>
+
+          <button
+            type="button"
+            className={`btn btn-primary ${styles.redes}`}
+            onClick={() =>
+              window.open("https://maps.app.goo.gl/KzmSqNrhjqjhhBtm6", "_blank")
+            }
+          >
             <i className="bi bi-geo-alt-fill"></i>
           </button>
         </div>
