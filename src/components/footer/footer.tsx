@@ -28,14 +28,20 @@ const Footer = () => {
 
         {/* Redes sociales */}
         <div className="d-flex justify-content-center gap-3 mb-3">
-          <a href="#" className="text-white">
+          <a
+            href="https://www.facebook.com/profile.php?id=61560141006918"
+            className="text-white"
+          >
             <i className="pi pi-facebook"></i>
           </a>
-          <a href="#" className="text-white">
+          <a
+            href="https://www.instagram.com/salonlasorquideas__"
+            className="text-white"
+          >
             <i className="pi pi-instagram"></i>
           </a>
-          <a href="#" className="text-white">
-            <i className="pi pi-twitter"></i>
+          <a href="https://wa.link/8m528q" className="text-white">
+            <i className="pi pi-whatsapp"></i>
           </a>
         </div>
 
