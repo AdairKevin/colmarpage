@@ -18,10 +18,16 @@ const Footer = () => {
           <a href="#" className=" text-primary text-decoration-none small">
             Inicio
           </a>
-          <a href="#" className=" text-primary text-decoration-none small">
+          <a
+            href="https://maps.app.goo.gl/KzmSqNrhjqjhhBtm6"
+            className=" text-primary text-decoration-none small"
+          >
             Ubicación
           </a>
-          <a href="#" className=" text-primary text-decoration-none small">
+          <a
+            href="https://wa.link/8m528q"
+            className=" text-primary text-decoration-none small"
+          >
             Contacto
           </a>
         </div>
