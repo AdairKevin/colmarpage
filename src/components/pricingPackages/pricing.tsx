@@ -46,7 +46,7 @@ const pricingPackages = [
   {
     title: "Paquete Intermedio",
     price: "$295",
-    moreInfo: "Por persona a partir de 200 personas",
+    moreInfo: "Por persona a partir de 150 personas",
     features: [
       "Todo lo del paquete básico",
       "Renta del Salón B por 7 horas",
