@@ -62,7 +62,7 @@ export default function Faq() {
         <p className={`text-muted ${styles.subtitle}`}>
           Estas son algunas de las dudas más comunes. ¿No encuentras lo que
           buscas?
-          <a href="#contacto" className="ms-1">
+          <a href="https://wa.link/8m528q" className="ms-1">
             ¡Contáctanos!
           </a>
         </p>

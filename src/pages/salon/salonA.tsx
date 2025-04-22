@@ -7,7 +7,7 @@ import salonAImages from "../../data/salonAImages.json";
 const SalonA = () => {
   return (
     <div className={styles.salonA}>
-      <h1>Salon A</h1>
+      <h1>Salón A</h1>
       <p>
         Es el espacio ideal para eventos íntimos y memorables. Con capacidad
         para 100 personas, área de cocina, barra para bebidas y dos baños,

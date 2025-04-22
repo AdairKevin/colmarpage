@@ -75,7 +75,13 @@ const MonthlyCountdown = () => {
               <span className={styles.priceSub}>{pkg.moreInfo}</span>
             </h3>
             <div className={styles.buttonContainer}>
-              <Button label={pkg.buttonText} className={styles.button} />
+              <Button
+                label={pkg.buttonText}
+                className={styles.button}
+                onClick={() =>
+                  (window.location.href = "https://wa.link/8m528q")
+                }
+              />
             </div>
 
             <ul className={styles.features}>

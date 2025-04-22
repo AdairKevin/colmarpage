@@ -7,7 +7,7 @@ import salonBImages from "../../data/salonBImages.json";
 const SalonB = () => {
   return (
     <div className={styles.salonB}>
-      <h1>Salon B</h1>
+      <h1>Salón B</h1>
       <p>
         El Salón B es el espacio ideal para grandes celebraciones. Con capacidad
         para hasta 250 personas, camerino, balcón, área para banda o DJ, cocina

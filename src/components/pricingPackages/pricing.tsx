@@ -18,7 +18,7 @@ const pricingPackages = [
       "Cocina (sin gas)",
       "Recepcionista",
     ],
-    buttonText: "Contratar",
+    buttonText: "Más Información",
   },
   {
     title: "Paquete Basico",
@@ -41,7 +41,7 @@ const pricingPackages = [
       "Recepcionista",
       "Juegos infantiles (1 pieza)",
     ],
-    buttonText: "Contratar",
+    buttonText: "Más Información",
   },
   {
     title: "Paquete Intermedio",
@@ -56,7 +56,7 @@ const pricingPackages = [
       "2 refrescos por mesa",
       "Agua y hielo (durante el banquete)",
     ],
-    buttonText: "Contratar",
+    buttonText: "Más Información",
   },
   {
     title: "Paquete Premium",
@@ -78,7 +78,7 @@ const pricingPackages = [
       "Video de edicion de aprocimadamente 2 horas",
       "Banner",
     ],
-    buttonText: "Contratar",
+    buttonText: "Más Información",
   },
 ];
 
@@ -95,7 +95,13 @@ const PricingSection = () => {
               <span className={styles.priceSub}>{pkg.moreInfo}</span>
             </h3>
             <div className={styles.buttonContainer}>
-              <Button label={pkg.buttonText} className={styles.button} />
+              <Button
+                label={pkg.buttonText}
+                className={styles.button}
+                onClick={() =>
+                  (window.location.href = "https://wa.link/8m528q")
+                }
+              />
             </div>
 
             <ul className={styles.features}>
